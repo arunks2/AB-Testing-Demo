@@ -1,0 +1,29 @@
+# Ignore node_modules directory for both React and Express
+node_modules/
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore environment files
+.env
+
+# Ignore any logs or other generated files
+*.log
+*.log.*
+npm-debug.log*
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore any local configuration files
+*.env.local
+
+# Ignore any sensitive or user-specific files
+*.pem
+*.key
+*.cert
+
+# Ignore any user-generated or uploaded files
+/public/uploads
